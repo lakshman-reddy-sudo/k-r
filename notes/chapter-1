@@ -2,3 +2,9 @@
 using; 16-bit ints, which lie between -32768 and +32767, are common, as are 32-bit ints
 
 2. A float number is typically a 32-bit quantity , with at least six sighicant digits and magnitude generally between about 10^-38 and 10^+38
+
+3. C provides several other basic data types besides int and float, including:
+(i)char - character-a single byte
+(ii)short - short integer
+(iii)long - long integer
+(iv)double - double-precision floating point
