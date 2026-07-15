@@ -1,10 +1,21 @@
-1. The range of both int and float depends on the machine you are
-using; 16-bit ints, which lie between -32768 and +32767, are common, as are 32-bit ints
+1. The range of both int and float depends on the machine you are using; 16-bit ints, which lie between -32768 and +32767, are common, as are 32-bit ints
 
 2. A float number is typically a 32-bit quantity , with at least six sighicant digits and magnitude generally between about 10^-38 and 10^+38
 
 3. C provides several other basic data types besides int and float, including:
-(i)char - character-a single byte
-(ii)short - short integer
-(iii)long - long integer
-(iv)double - double-precision floating point
+(i) char - character-a single byte
+(ii) short - short integer
+(iii) long - long integer
+(iv) double - double-precision floating point
+
+4. The printf conversion specification %3.Of says that a floating-point number (here fahr) is to be printed at least three characters wide, with no decimal point and no fraction digits. %6. 1f describes another number (celsius) that is to be printed at least six characters wide, with 1 digit after the decimal point.
+
+5. Width and precision may be omitted from a specification: %6f says that the number is to be at least six characters wide; %. 2f specifies two characters after the decimal point, but the width is not constrained; and %f merely says to print the number as floating point.
+
+6. (i) %d - print as decimal integer
+   (ii) %6d - print as decimal integer, at least 6 characters wide
+   (iii) %f - print as floating point
+   (iv) %6f - print as floating point, at least 6 characters wide
+   (v) .2f - print as floating point, 2 characters after decimal point
+   (vi) 6.2f - print as floating point, at least 6 wide and 2 after decimal point
+   Among others, printf also recognizes % for octal, % for hexadecimal, %c forcharacter, %s for character string, and %% for % itself.
