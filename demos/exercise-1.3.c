@@ -19,7 +19,8 @@ int main(void) {
     return 0;
 }
 
-#Output - Fahr  Celsius
+#Output - 
+Fahr  Celsius
 ----  -------
   0 -17.8
  20  -6.7
