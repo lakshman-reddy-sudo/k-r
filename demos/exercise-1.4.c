@@ -18,7 +18,8 @@ int main(void) {
     return 0;
 }
 
-#Output -   0 -17.8
+#Output -   
+ 0 -17.8
  20  -6.7
  40   4.4
  60  15.6
